@@ -1,0 +1,19 @@
+{
+  "name": "queue-crawler-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.10.1",
+    "bull-arena": "^3.30.1",
+    "express": "^4.18.2"
+  },
+  "type": "module"
+}
